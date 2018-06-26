@@ -12,9 +12,5 @@ You can change number of columns in class constant.swift
     Note : By Default "Kittens" is selected and searched, you can search your own
     
     
-    
-    ![simulator screen shot - iphone 5s - 2018-06-27 at 01 57 29](https://user-images.githubusercontent.com/5277297/41937545-33b507c6-79ae-11e8-8373-ddf4f87900a5.png)
-
-    
-    
-    
+ ###Screenshot   
+ ![simulator screen shot - iphone 5s - 2018-06-27 at 01 57 29](https://user-images.githubusercontent.com/5277297/41937545-33b507c6-79ae-11e8-8373-ddf4f87900a5.png)
