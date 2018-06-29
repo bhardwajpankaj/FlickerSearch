@@ -7,6 +7,7 @@
 //
 
 import XCTest
+@testable import FlickrSearch
 
 class PhotoTest: XCTestCase {
     
@@ -20,16 +21,14 @@ class PhotoTest: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testInit_shouldTake()
+    {
+        let photo = Photo(farm: 1, server: "896", id: "43003176501", secret: "86d5b7c0b4")
+        XCTAssertEqual(photo.farm, 1)
+        XCTAssertEqual(photo.server, "896")
+        XCTAssertEqual(photo.id, "43003176501")
+        XCTAssertEqual(photo.secret, "86d5b7c0b4")
     }
     
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
-    }
     
 }
